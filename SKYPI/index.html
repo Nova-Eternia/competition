@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- using gsap.cdn ,locomotive.cdn, and for smooth schrolling we add javascript code from (locomotive scrolltrigger codepen) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- using gsap.cdn.css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!--using locomotiive.cdn.css-->f
+</head>
+
+<body>
+    <div id="main">
+        <div data-scroll data-scroll-speed="-5" id="page1">
+            <nav>
+                <img src="LOGO[m].png" alt="">
+                <div id="right_nav">
+                    <button>Book a Demo</button>
+                    <button><i class="ri-menu-fill"></i></button>
+                </div>
+            </nav>
+            <div class="bottom_page1">
+                <h1>
+                    Experience Real <br> Estate Agility
+                </h1>
+                <div class="bottom_page1-inner">
+                    <h4>Create a digital twin of your existing building <br> and release the
+                        potential of web3</h4>
+                    <button><b>EARN MORE</b></button>
+                </div>
+            </div>
+            <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop
+                muted></video>
+        </div>
+        <div id="page2">
+            <h3>CREATE YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT)</h3>
+            <h1>The Digital Twin Token is a unique digital asset backed by property data.
+                Magma combines your building's components and systems essential
+                information into DTT.
+            </h1>
+        </div>
+        <div id="page3"><canvas></canvas></div>
+        <diiv id="page4">
+            <h3>CONNECT THE BUILDING'S TO YOUR STAKEHOLDERS</h3>
+            <h1>Users connect directly ot the DTT without any internediaries .As stakeholder, they have the power
+                to upload and verify information that enriches the Digital Twin Token. A Stakeholder ability to accrss
+                validated-data to perform tasks devends on their specific role.
+            </h1>
+        </diiv>
+        <div id="page5"><canvas></canvas></div>
+        <div id="page6">
+            <h3>INCREASE YOUR TWIN TOKEN'S VALUE</h3>
+            <h1>DTT data increases the value of yout digital asset by lowering operational costs, improving
+                energy use, assisting commercialization , and boosting the liquidity of your building.
+            </h1>
+        </div>
+        <div id="page7">
+            <div class="page7_circle">
+                <div class="page7_circle-inner"></div>
+            </div>
+            <canvas></canvas>
+        </div><!--make an improvement = make the circle shrink when you are closing the page and moving to next page-->
+        <div id="page8">
+            <div class="bottom_page8">
+                <h1>Magma DTT</h1>
+                <Button><b>LEARN MORE</b></Button>
+            </div><video src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.webm?2" autoplay loop
+                muted></video>
+
+        </div>
+        <div id="page9">
+            <div class="page9_left">
+                <h1>What is <br> Magma?</h1>
+            </div>
+            <div class="page9_right"><img
+                    src="https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg"
+                    alt="page9 image"></div>
+        </div>
+        <div id="page10">
+            <div class="page10_right">
+                <div class="page10_right-top">
+                    <h2>Web3 platform</h2>
+                    <p>Magma is a Web3 platform for all real estate stakeholders, which provides users with the ability
+                        to manage interactions between physical and digital assets through unique, and collectively
+                        generated, 3D representations of their buildings.</p>
+                </div>
+                <div class="page10_right-middle">
+                    <h2>The Digital Twin Token:The building unique digital copy</h2>
+                    <p>Magma uses blockchain technology to record essential data, which enables transparent, traceable,
+                        and immutable streams of information to be readily accessible to its users. Magma smart
+                        contracts are built with this blockchain data to expedite tasks like requests for proposals,
+                        lease agreements, and services arrangements.</p>
+                </div>
+                <div class="page10_right-bottom">
+                    <h2>An Index of digitization</h2>
+                    <p>The Magma Index provides valuable insight for decision-making regarding data-sharing,
+                        service-creating, and operational/environmental expectations.</p>
+                </div>
+            </div>
+        </div>
+        <div id="page11">
+            <h1><b>Recent Blog</b></h1>
+            <div class="page11_inner">
+                <div class="inner_left"><img
+                        src="https://thisismagma.com/wp-content/uploads/2023/05/thisismagma.com-magma-a-la-3eme-edition-du-tech-talk-de-cbre-france-1684942208038.jpeg"
+                        alt=""></div>
+                <div class="inner_right">
+                    <h4>MAY 30,2023</h4>
+                    <h1>Magma At CBRE France's 3rd Tech Talk</h1>
+                </div>
+            </div>
+            <div class="page11_inner">
+                <div class="inner_left"><img
+                        src="https://thisismagma.com/wp-content/uploads/2023/05/thisismagma.com-workshop-blockchain-et-actif-digitaux-sba-16-min-scaled.jpg"
+                        alt=""></div>
+                <div class="inner_right">
+                    <h4>MAY 30,2023</h4>
+                    <h1>Magma At CBRE France's 3rd Tech Talk</h1>
+                </div>
+            </div>
+            <div class="page11_inner">
+                <div class="inner_left"><img
+                        src="https://thisismagma.com/wp-content/uploads/2023/03/magma.wp2.cubdev.com-exploring-the-potential-of-real-estate-tokenization-digital-twins-magma.png"
+                        alt=""></div>
+                <div class="inner_right">
+                    <h4>MAY 30,2023</h4>
+                    <h1>Magma At CBRE France's 3rd Tech Talk</h1>
+                </div>
+            </div>
+        </div>
+        <div id="page12">
+            <div class="page12_inner">
+                <h1>Featured In </h1>
+                <p>Thrilled to have been featured in several prominent media <br> outlets and leading professionals
+                    across the world’s best <br> real estate and web3 institutions.</p>
+            </div>
+        </div>
+        <!-- </div>
+
+        <div id="page13">
+            <div class="logo"></div>
+            <div class="logo"></div>
+            <div class="logo"></div>
+            <div class="logo"></div>
+            <div class="logo"></div>
+            <div class="logo"></div>
+
+        </div> -->
+
+        <div id="page13">
+            <h1>Become an <br> early Adoptor</h1><button><b>BOOK A DEMO</b></button>
+        </div>
+        <div id="page14">
+            <div class="page14_inner">
+                <h1>TWITTER</h1><i class="ri-arrow-right-up-line"></i>
+                <div class="center14"></div>
+            </div>
+            <div class="page14_inner">
+                <h1>LINKDIN</h1><i class="ri-arrow-right-up-line"></i>
+                <div class="center14"></div>
+            </div>
+            <div class="page14_inner">
+                <h1>INSTAGRAM</h1><i class="ri-arrow-right-up-line"></i>
+                <div class="center14"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!--using locomotiive.cdn.js-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

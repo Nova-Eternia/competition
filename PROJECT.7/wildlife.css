@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 380vh;
+}
+
+/* TOP OF THE PAGE */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.page_top {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+
+.page_top-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height: 10vh;
+}
+
+.page_top-left>h1 {
+    margin: 0.5vw;
+    font-size: 1.2vw;
+    color: yellow;
+}
+
+.square {
+    position: relative;
+    width: 2vw;
+    height: 7vh;
+    border: 2px solid yellow;
+}
+
+.page_top-right {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    height: 10vh;
+    color: white;
+    margin-left: 10vw;
+}
+
+.head {
+    position: relative;
+    top: 5vh;
+    height: 4.3vh;
+    border-radius: 0.3vw;
+}
+
+.head>p {
+    font-size: 1.4vw;
+}
+
+.head:hover {
+    border-bottom: 4px solid rgb(255, 255, 4);
+}
+
+/* first background image */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.bg-1 {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 130vh;
+    background: url("-bg.image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.square-0 {
+    position: absolute;
+    top: 10vw;
+    right: 11vw;
+    width: 30vw;
+    height: 85vh;
+    border: 4vw solid rgb(230, 230, 8);
+
+}
+
+.name {
+    position: absolute;
+    left: 1vw;
+    bottom: 0;
+    width: 2.8vw;
+    height: 37vh;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(180deg);
+}
+
+.name>h3 {
+    color: yellow;
+    font-size: 1.8VW;
+    writing-mode: vertical-rl;
+    font-weight: 90;
+    margin-top: 1.8vw;
+    padding: 0.2vw;
+}
+
+.block {
+    width: 2vw;
+    height: 0.3vw;
+    background-color: yellow;
+
+}
+
+.blocks {
+    margin-top: 4vh;
+    width: 2vw;
+    height: 4vh;
+    background-color: yellow;
+}
+
+.wild {
+    position: relative;
+    top: 22vw;
+    left: 10vw;
+    width: 37vw;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-top: 16px solid yellow;
+}
+
+.wild>h1 {
+    font-size: 4vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    color: white;
+}
+
+.wild>p {
+    color: white;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.wild_bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12vw;
+    height: 4vh;
+    background-color: yellow;
+}
+
+.wild_bottom>button {
+    width: 10.5vw;
+    height: 4vh;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    border: none;
+}
+
+
+/* second background image */
+.bg-2 {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 130vh;
+    background: url("bg.image2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.square1 {
+    position: relative;
+    left: 12vw;
+    top: 10vh;
+    width: 30vw;
+    height: 90vh;
+    border: 4vw solid rgb(212, 212, 59);
+}
+
+.bird {
+    position: relative;
+    top: 10vw;
+    left: 17vw;
+    width: 35vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-top: 15px solid yellow;
+}
+
+.bird>h1 {
+    font-size: 4.5vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+    color: white;
+}
+
+.bird_inside {
+    height: 47vh;
+    width: 33vw;
+    margin-left: 2vw;
+    background: url("bird-bg.image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bird_inside-para {
+    width: 24vw;
+    height: 30vh;
+    background-color: rgba(245, 242, 242, 0.075);
+}
+
+.bird_inside-para>p {
+    padding: 1vw 1vw;
+    font-size: 1.3vw
+}
+
+.bird_bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12vw;
+    height: 4vh;
+    background-color: yellow;
+}
+
+.bird_bottom>button {
+    width: 10.5vw;
+    height: 4vh;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    border: none;
+}
+
+
+/* third background image */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+.bg-3 {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+}
+
+.bg-3-left {
+    position: relative;
+    width: 50vw;
+    height: 120vh;
+    background: url("deer.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50vw;
+    height: 120vh;
+    background-color: rgb(209, 235, 247);
+}
+
+.map>h1 {
+    font-size: 4.5vw;
+    font-weight: 90;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+
+}
+
+.map>h2 {
+    position: relative;
+    width: 8vw;
+    height: auto;
+    padding: 0.2vw 3vw;
+    background-color: black;
+    color: yellow;
+}
+
+.map_boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3vw;
+    width: 50vw;
+    height: 13vh;
+    margin-top: 1.5vw;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    width: 13vw;
+    height: 13vh;
+    background-color: white;
+}
+
+.box>img {
+    width: 3vw;
+}
+
+.box>p {
+    font-size: 1.5vw;
+}
+
+.deer_para {
+    position: relative;
+    width: 44vw;
+    height: 21.5vh;
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    border-radius: 0.5vw;
+    border-bottom: 2px solid rgb(112, 112, 112);
+    background-color: rgb(216, 241, 253);
+}
+
+.deer_para>h3 {
+    font-size: 1.7vw;
+}
+
+.deer_para>p {
+    padding-top: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.bg-4 {
+    position: relative;
+    top: 1vw;
+    width: 50vw;
+    height: 55vh;
+    background: url("bgk.4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.wild_last {
+    position: absolute;
+    top: 35vw;
+    left: 32.5vw;
+    width: 35vw;
+    height: 35vh;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-top: 16px solid yellow;
+}
+
+.wild_last>h1 {
+    font-size: 4vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    color: white;
+}
+
+.wild_last>p {
+    color: white;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+
+.park {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12vw;
+    height: 4vh;
+    background-color: yellow;
+}
+
+.park>button {
+    width: 10.7vw;
+    height: 4vh;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    border: none;
+}

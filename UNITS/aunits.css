@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+}
+
+.mains {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.big_box {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: violet;
+}
+
+.box1 {
+    position: absolute;
+    right: 0;
+    width: 45vw;
+    height: 60vh;
+    background-color: teal;
+}
